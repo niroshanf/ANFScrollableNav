@@ -23,12 +23,12 @@ public enum MenuPosition {
 
 public protocol NavigationManagerDelegate: AnyObject {
     func menuItemClicked(selectedIndex: Int, manager: NavigationManager)
-    func selectedMenu(menuItem: String, manager: NavigationManager) -> NSAttributedString
-    func unselectedMenu(menuItem: String, manager: NavigationManager) -> NSAttributedString
 }
 
 public protocol NavigationManagerUIDelegate: AnyObject {
     
+    func selectedMenu(menuItem: String, manager: NavigationManager) -> NSAttributedString
+    func unselectedMenu(menuItem: String, manager: NavigationManager) -> NSAttributedString
     func contentInsets() -> UIEdgeInsets
     func interItemSpacing() -> CGFloat
     func indicatorView(selectedIndex: Int) -> UIView
@@ -122,11 +122,11 @@ extension NavigationManager: NavViewControllerDelegate {
     }
     
     func selectedMenu(menuItem: String) ->  NSAttributedString {
-        self.delegate?.selectedMenu(menuItem: menuItem, manager: self) ?? NSAttributedString(string: menuItem)
+        self.UIDelegate?.selectedMenu(menuItem: menuItem, manager: self) ?? NSAttributedString(string: menuItem)
     }
     
     func unselectedMenu(menuItem: String) ->  NSAttributedString {
-        self.delegate?.unselectedMenu(menuItem: menuItem, manager: self) ?? NSAttributedString(string: menuItem)
+        self.UIDelegate?.unselectedMenu(menuItem: menuItem, manager: self) ?? NSAttributedString(string: menuItem)
     }
     
     func contentInsets() -> UIEdgeInsets {

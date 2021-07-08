@@ -60,6 +60,12 @@ extension StandaloneNavViewController: NavigationManagerDelegate {
         print("menu clicked = \(selectedIndex)")
     }
     
+    
+}
+
+
+extension StandaloneNavViewController: NavigationManagerUIDelegate {
+    
     func selectedMenu(menuItem: String, manager: NavigationManager) -> NSAttributedString {
     
         let color: UIColor = UIColor(named: "SelectedMenu")!
@@ -72,10 +78,6 @@ extension StandaloneNavViewController: NavigationManagerDelegate {
         let font = UIFont.boldSystemFont(ofSize: 16)
         return NSMutableAttributedString(string: menuItem, attributes: [NSAttributedString.Key.font : font, NSAttributedString.Key.foregroundColor: color])
     }
-}
-
-
-extension StandaloneNavViewController: NavigationManagerUIDelegate {
     
     func interItemSpacing() -> CGFloat {
         return 24.0

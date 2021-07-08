@@ -11,10 +11,11 @@ import UIKit
 protocol NavScrollViewDelegate: AnyObject {
     func layoutSubviewsDone(contentSize: CGSize)
     func menuItemClicked(selectedIndex: Int)
-    func selectedMenu(menuItem: String) -> NSAttributedString
-    func unselectedMenu(menuItem: String) -> NSAttributedString
+    
     
     //UI
+    func selectedMenu(menuItem: String) -> NSAttributedString
+    func unselectedMenu(menuItem: String) -> NSAttributedString
     func contentInsets() -> UIEdgeInsets
     func interItemSpacing() -> CGFloat
     func indicatorView(selectedIndex: Int) -> UIView
