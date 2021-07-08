@@ -22,7 +22,7 @@ pod 'ANFScrollableNav'
 
 ## Author
 
-anthony-fernandez, niroshanf@gmail.com
+Anthony Niroshan De Croos Fernandez, niroshanf@gmail.com
 
 ## License
 
