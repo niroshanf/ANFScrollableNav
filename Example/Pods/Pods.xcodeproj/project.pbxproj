@@ -10,6 +10,8 @@
 		080274AC26972621000747EF /* NavScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080274A926972620000747EF /* NavScrollView.swift */; };
 		080274AD26972621000747EF /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080274AA26972621000747EF /* NavViewController.swift */; };
 		080274AE26972621000747EF /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080274AB26972621000747EF /* NavigationManager.swift */; };
+		080274F42697896F000747EF /* Screen Shot 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 080274F22697896F000747EF /* Screen Shot 1.jpg */; };
+		080274F52697896F000747EF /* Screen Shot 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 080274F32697896F000747EF /* Screen Shot 2.gif */; };
 		1376DECF97082ECBAE08A2A4C1D4C5A9 /* ANFScrollableNav-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 804BA5CB7733DA4DB95A8CE86CE864C5 /* ANFScrollableNav-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17C55B16D3ACDAD411EBBAA9F88AECB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6DF73BBAE6384A8C69627D4D3131FC65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -42,6 +44,8 @@
 		080274A926972620000747EF /* NavScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavScrollView.swift; sourceTree = "<group>"; };
 		080274AA26972621000747EF /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
 		080274AB26972621000747EF /* NavigationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		080274F22697896F000747EF /* Screen Shot 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screen Shot 1.jpg"; sourceTree = "<group>"; };
+		080274F32697896F000747EF /* Screen Shot 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Screen Shot 2.gif"; sourceTree = "<group>"; };
 		0956CCB91B7EEB9DCA7F2E261C65DC44 /* Pods-ANFScrollableNav_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ANFScrollableNav_Tests-umbrella.h"; sourceTree = "<group>"; };
 		137CE3725F55A72122703CC228DB5414 /* Pods-ANFScrollableNav_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANFScrollableNav_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B6C7E347558281E65E31F7D51E3F412 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -104,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080274F126978939000747EF /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				080274F22697896F000747EF /* Screen Shot 1.jpg */,
+				080274F32697896F000747EF /* Screen Shot 2.gif */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		24F359B02ACB74E7B4AA6E13F6DD23EF /* Pods-ANFScrollableNav_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +182,7 @@
 		75EF718D3EC061B5890120C66DAE4FD4 /* ANFScrollableNav */ = {
 			isa = PBXGroup;
 			children = (
+				080274F126978939000747EF /* Screenshots */,
 				080274AB26972621000747EF /* NavigationManager.swift */,
 				080274A926972620000747EF /* NavScrollView.swift */,
 				080274AA26972621000747EF /* NavViewController.swift */,
@@ -361,6 +375,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080274F42697896F000747EF /* Screen Shot 1.jpg in Resources */,
+				080274F52697896F000747EF /* Screen Shot 2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
