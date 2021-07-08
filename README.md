@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ANFScrollableNav.svg?style=flat)](https://cocoapods.org/pods/ANFScrollableNav)
 [![Platform](https://img.shields.io/cocoapods/p/ANFScrollableNav.svg?style=flat)](https://cocoapods.org/pods/ANFScrollableNav)
 
+[](https://github.com/niroshanf/ANFScrollableNav/blob/main/Screenshots/Screen%20Shot%201.jpg)]
+[](https://github.com/niroshanf/ANFScrollableNav/blob/main/Screenshots/Screen%20Shot%202.gif)]
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
