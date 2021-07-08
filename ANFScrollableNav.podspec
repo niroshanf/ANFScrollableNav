@@ -31,5 +31,7 @@ Scrollable navigation that support both orientations and LTR / RTL languages. Ea
   s.ios.deployment_target = '12.0'
 
   s.source_files = "*.{swift}"
+  
+  s.swift_version = "5.0"
 
 end
