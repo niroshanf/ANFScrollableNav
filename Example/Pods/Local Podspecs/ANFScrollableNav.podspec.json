@@ -1,0 +1,22 @@
+{
+  "name": "ANFScrollableNav",
+  "version": "0.1.0",
+  "summary": "A short description of ANFScrollableNav.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/anthony-fernandez/ANFScrollableNav",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "anthony-fernandez": "niroshanf@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/anthony-fernandez/ANFScrollableNav.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ANFScrollableNav/Classes/**/*"
+}

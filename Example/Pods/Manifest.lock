@@ -1,0 +1,16 @@
+PODS:
+  - ANFScrollableNav (0.1.0)
+
+DEPENDENCIES:
+  - ANFScrollableNav (from `../`)
+
+EXTERNAL SOURCES:
+  ANFScrollableNav:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ANFScrollableNav: 659bc6d522fc33ea5991bb071bccf21ec43618b1
+
+PODFILE CHECKSUM: f5e84aa179ee3e5a33d0bb86346053f45f42bc36
+
+COCOAPODS: 1.10.1

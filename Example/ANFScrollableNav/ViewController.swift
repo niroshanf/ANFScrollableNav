@@ -3,10 +3,15 @@
 //  ANFScrollableNav
 //
 //  Created by anthony-fernandez on 07/08/2021.
-//  Copyright (c) 2021 anthony-fernandez. All rights reserved.
+//  Copyright © 2021 Anthony Niroshan Fernandez. All rights reserved.
 //
 
 import UIKit
+
+enum appLang {
+    case AR
+    case EN
+}
 
 class ViewController: UIViewController {
 

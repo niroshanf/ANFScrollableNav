@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080274AC26972621000747EF /* NavScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080274A926972620000747EF /* NavScrollView.swift */; };
+		080274AD26972621000747EF /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080274AA26972621000747EF /* NavViewController.swift */; };
+		080274AE26972621000747EF /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080274AB26972621000747EF /* NavigationManager.swift */; };
+		1376DECF97082ECBAE08A2A4C1D4C5A9 /* ANFScrollableNav-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 804BA5CB7733DA4DB95A8CE86CE864C5 /* ANFScrollableNav-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17C55B16D3ACDAD411EBBAA9F88AECB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6DF73BBAE6384A8C69627D4D3131FC65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		781DD373A72019856E172260B58D5EE0 /* Pods-ANFScrollableNav_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF221D03DAC9D5CBEFA9B392134078D /* Pods-ANFScrollableNav_Tests-dummy.m */; };
+		A2707FE3D480989D9428A92D93390536 /* Pods-ANFScrollableNav_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1EC73E9BF537D67D8F00C5418B0863 /* Pods-ANFScrollableNav_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC15CF42922B5D6C8C1F431E32C48258 /* Pods-ANFScrollableNav_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0956CCB91B7EEB9DCA7F2E261C65DC44 /* Pods-ANFScrollableNav_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE1DFFC1F81C0734E303EE56F010771A /* Pods-ANFScrollableNav_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E32B5123B6901CBAF5B53F75B5368830 /* Pods-ANFScrollableNav_Example-dummy.m */; };
+		C9B755F0AB65FDB8B756EC46FCA4F806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D835758E3C1219EEC41FBDE2754940E7 /* ANFScrollableNav-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD90E8C433814AFE08B89EFE9E9692A /* ANFScrollableNav-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		064430E7119A26F59B748A9290121A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E41B4F6D26F24380F855AABE3B8B8B4;
+			remoteInfo = "Pods-ANFScrollableNav_Example";
+		};
+		CA3A7E61354439FCAC53A1F8D91AE67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C0A81396135F116DAB41F62C5267477;
+			remoteInfo = ANFScrollableNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080274A926972620000747EF /* NavScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavScrollView.swift; sourceTree = "<group>"; };
+		080274AA26972621000747EF /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		080274AB26972621000747EF /* NavigationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		0956CCB91B7EEB9DCA7F2E261C65DC44 /* Pods-ANFScrollableNav_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ANFScrollableNav_Tests-umbrella.h"; sourceTree = "<group>"; };
+		137CE3725F55A72122703CC228DB5414 /* Pods-ANFScrollableNav_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANFScrollableNav_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B6C7E347558281E65E31F7D51E3F412 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1BD90E8C433814AFE08B89EFE9E9692A /* ANFScrollableNav-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANFScrollableNav-dummy.m"; sourceTree = "<group>"; };
+		1FF221D03DAC9D5CBEFA9B392134078D /* Pods-ANFScrollableNav_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANFScrollableNav_Tests-dummy.m"; sourceTree = "<group>"; };
+		263CE5B44A618D229218AAFC056B6B1E /* ANFScrollableNav-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ANFScrollableNav-Info.plist"; sourceTree = "<group>"; };
+		2AE4AD4B85D3FC1F0F3F4509E9CD60A1 /* ANFScrollableNav.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ANFScrollableNav.modulemap; sourceTree = "<group>"; };
+		2E07F3FFF929049EB37336BD70CADA90 /* Pods-ANFScrollableNav_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANFScrollableNav_Example-frameworks.sh"; sourceTree = "<group>"; };
+		31D0A927380E7EFF233D9E096FF0CD6F /* Pods-ANFScrollableNav_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANFScrollableNav_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B08AF2E84AD9E6C0BE7FF41B202EA80 /* Pods-ANFScrollableNav_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANFScrollableNav_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E1EC73E9BF537D67D8F00C5418B0863 /* Pods-ANFScrollableNav_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ANFScrollableNav_Example-umbrella.h"; sourceTree = "<group>"; };
+		51C915F0237CBF15872A7EC5F070C9BD /* Pods-ANFScrollableNav_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ANFScrollableNav_Tests.modulemap"; sourceTree = "<group>"; };
+		596DB67A008013FD565540A67B092403 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		757670F556EE6DFED2704E975D5E1726 /* Pods-ANFScrollableNav_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANFScrollableNav_Example-Info.plist"; sourceTree = "<group>"; };
+		772E56277BA947ABD55A7F3024949AB7 /* ANFScrollableNav.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ANFScrollableNav.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C9921D340DAB71A0F9D9152E1C2B8E0 /* Pods-ANFScrollableNav_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANFScrollableNav_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7D9DD767605A462556FAFD14323DB0EF /* Pods-ANFScrollableNav_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANFScrollableNav_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		804BA5CB7733DA4DB95A8CE86CE864C5 /* ANFScrollableNav-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANFScrollableNav-umbrella.h"; sourceTree = "<group>"; };
+		88F43DA36D2A831E5483900384D39A1B /* Pods_ANFScrollableNav_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANFScrollableNav_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94319B11E46E5E461D77D085E8910D6E /* Pods-ANFScrollableNav_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANFScrollableNav_Tests-Info.plist"; sourceTree = "<group>"; };
+		9C7D1E1785A91A1231AACC312B3BE8F6 /* ANFScrollableNav-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANFScrollableNav-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB45EFF80B9EB6A361D8AD1AB2E36B8B /* Pods_ANFScrollableNav_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ANFScrollableNav_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1A4E868E15F5E4C66BB08F1E505C02 /* ANFScrollableNav.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANFScrollableNav.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3969C1A4DD99CD5452F1529B7F1A1B0 /* Pods-ANFScrollableNav_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANFScrollableNav_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D767BEAB7BCE2FA62AD0C01F4BFF9988 /* Pods-ANFScrollableNav_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANFScrollableNav_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7AE82E4609F34D59DDBFD1136D08D34 /* ANFScrollableNav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANFScrollableNav.debug.xcconfig; sourceTree = "<group>"; };
+		E32B5123B6901CBAF5B53F75B5368830 /* Pods-ANFScrollableNav_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANFScrollableNav_Example-dummy.m"; sourceTree = "<group>"; };
+		F5E70804643CFF34F6A7F79FB7D4D398 /* Pods-ANFScrollableNav_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANFScrollableNav_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F8DDB4232D5187F178B41FB8E9AC59B9 /* Pods-ANFScrollableNav_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ANFScrollableNav_Example.modulemap"; sourceTree = "<group>"; };
+		FA31626F54BC0384B36758A7AEE9A64C /* ANFScrollableNav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANFScrollableNav.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AEE56A029513CC0A07FE015F70BFEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C55B16D3ACDAD411EBBAA9F88AECB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A785C29FDF117ECDE7A3597B664BBCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B755F0AB65FDB8B756EC46FCA4F806 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E9A584579FB64533D4DEDF6345AC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF73BBAE6384A8C69627D4D3131FC65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24F359B02ACB74E7B4AA6E13F6DD23EF /* Pods-ANFScrollableNav_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F8DDB4232D5187F178B41FB8E9AC59B9 /* Pods-ANFScrollableNav_Example.modulemap */,
+				D767BEAB7BCE2FA62AD0C01F4BFF9988 /* Pods-ANFScrollableNav_Example-acknowledgements.markdown */,
+				7D9DD767605A462556FAFD14323DB0EF /* Pods-ANFScrollableNav_Example-acknowledgements.plist */,
+				E32B5123B6901CBAF5B53F75B5368830 /* Pods-ANFScrollableNav_Example-dummy.m */,
+				2E07F3FFF929049EB37336BD70CADA90 /* Pods-ANFScrollableNav_Example-frameworks.sh */,
+				757670F556EE6DFED2704E975D5E1726 /* Pods-ANFScrollableNav_Example-Info.plist */,
+				4E1EC73E9BF537D67D8F00C5418B0863 /* Pods-ANFScrollableNav_Example-umbrella.h */,
+				F5E70804643CFF34F6A7F79FB7D4D398 /* Pods-ANFScrollableNav_Example.debug.xcconfig */,
+				4B08AF2E84AD9E6C0BE7FF41B202EA80 /* Pods-ANFScrollableNav_Example.release.xcconfig */,
+			);
+			name = "Pods-ANFScrollableNav_Example";
+			path = "Target Support Files/Pods-ANFScrollableNav_Example";
+			sourceTree = "<group>";
+		};
+		3D77620E59B896C27B71CEA85F6B4693 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24F359B02ACB74E7B4AA6E13F6DD23EF /* Pods-ANFScrollableNav_Example */,
+				C1C2CAE857D45FF3829F086420DDA8A1 /* Pods-ANFScrollableNav_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		437E25E6D69AD03B58A2059DC62EAC7B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75EF718D3EC061B5890120C66DAE4FD4 /* ANFScrollableNav */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4BF11896D3CD4A458FDC0740288BC5F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A4E868E15F5E4C66BB08F1E505C02 /* ANFScrollableNav.framework */,
+				88F43DA36D2A831E5483900384D39A1B /* Pods_ANFScrollableNav_Example.framework */,
+				BB45EFF80B9EB6A361D8AD1AB2E36B8B /* Pods_ANFScrollableNav_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		73654E3ACF2CA0A772731EA9F8386528 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				772E56277BA947ABD55A7F3024949AB7 /* ANFScrollableNav.podspec */,
+				596DB67A008013FD565540A67B092403 /* LICENSE */,
+				1B6C7E347558281E65E31F7D51E3F412 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		75EF718D3EC061B5890120C66DAE4FD4 /* ANFScrollableNav */ = {
+			isa = PBXGroup;
+			children = (
+				080274AB26972621000747EF /* NavigationManager.swift */,
+				080274A926972620000747EF /* NavScrollView.swift */,
+				080274AA26972621000747EF /* NavViewController.swift */,
+				73654E3ACF2CA0A772731EA9F8386528 /* Pod */,
+				C57BD7BDBDCCDD09FE7D751BA7B8CEE5 /* Support Files */,
+			);
+			name = ANFScrollableNav;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C1C2CAE857D45FF3829F086420DDA8A1 /* Pods-ANFScrollableNav_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				51C915F0237CBF15872A7EC5F070C9BD /* Pods-ANFScrollableNav_Tests.modulemap */,
+				31D0A927380E7EFF233D9E096FF0CD6F /* Pods-ANFScrollableNav_Tests-acknowledgements.markdown */,
+				D3969C1A4DD99CD5452F1529B7F1A1B0 /* Pods-ANFScrollableNav_Tests-acknowledgements.plist */,
+				1FF221D03DAC9D5CBEFA9B392134078D /* Pods-ANFScrollableNav_Tests-dummy.m */,
+				94319B11E46E5E461D77D085E8910D6E /* Pods-ANFScrollableNav_Tests-Info.plist */,
+				0956CCB91B7EEB9DCA7F2E261C65DC44 /* Pods-ANFScrollableNav_Tests-umbrella.h */,
+				137CE3725F55A72122703CC228DB5414 /* Pods-ANFScrollableNav_Tests.debug.xcconfig */,
+				7C9921D340DAB71A0F9D9152E1C2B8E0 /* Pods-ANFScrollableNav_Tests.release.xcconfig */,
+			);
+			name = "Pods-ANFScrollableNav_Tests";
+			path = "Target Support Files/Pods-ANFScrollableNav_Tests";
+			sourceTree = "<group>";
+		};
+		C57BD7BDBDCCDD09FE7D751BA7B8CEE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AE4AD4B85D3FC1F0F3F4509E9CD60A1 /* ANFScrollableNav.modulemap */,
+				1BD90E8C433814AFE08B89EFE9E9692A /* ANFScrollableNav-dummy.m */,
+				263CE5B44A618D229218AAFC056B6B1E /* ANFScrollableNav-Info.plist */,
+				9C7D1E1785A91A1231AACC312B3BE8F6 /* ANFScrollableNav-prefix.pch */,
+				804BA5CB7733DA4DB95A8CE86CE864C5 /* ANFScrollableNav-umbrella.h */,
+				D7AE82E4609F34D59DDBFD1136D08D34 /* ANFScrollableNav.debug.xcconfig */,
+				FA31626F54BC0384B36758A7AEE9A64C /* ANFScrollableNav.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ANFScrollableNav";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				437E25E6D69AD03B58A2059DC62EAC7B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4BF11896D3CD4A458FDC0740288BC5F0 /* Products */,
+				3D77620E59B896C27B71CEA85F6B4693 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5D3E79CADCFB00699B9DDAD7F8422B13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2707FE3D480989D9428A92D93390536 /* Pods-ANFScrollableNav_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC5FD4ED0BAC728BC31EFD982009A96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1376DECF97082ECBAE08A2A4C1D4C5A9 /* ANFScrollableNav-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D793E12171CE2D006227AE488332B6BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC15CF42922B5D6C8C1F431E32C48258 /* Pods-ANFScrollableNav_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C0A81396135F116DAB41F62C5267477 /* ANFScrollableNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396A25A0AD160ED40FDF10281147798D /* Build configuration list for PBXNativeTarget "ANFScrollableNav" */;
+			buildPhases = (
+				8EC5FD4ED0BAC728BC31EFD982009A96 /* Headers */,
+				7B2B6052C6517D240D7ADD78F66DD12D /* Sources */,
+				C4E9A584579FB64533D4DEDF6345AC38 /* Frameworks */,
+				EBB26D1155C0C77204B8F7BFF4D79F78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANFScrollableNav;
+			productName = ANFScrollableNav;
+			productReference = CD1A4E868E15F5E4C66BB08F1E505C02 /* ANFScrollableNav.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0E41B4F6D26F24380F855AABE3B8B8B4 /* Pods-ANFScrollableNav_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8169147CF200938A0928BCEC4D619F48 /* Build configuration list for PBXNativeTarget "Pods-ANFScrollableNav_Example" */;
+			buildPhases = (
+				5D3E79CADCFB00699B9DDAD7F8422B13 /* Headers */,
+				D193B6CA11C100CAAE6C90C104357FF1 /* Sources */,
+				7AEE56A029513CC0A07FE015F70BFEBC /* Frameworks */,
+				42A049423046BFAF9FBD92DC9A02B4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72BA7683D854EB9D74CD9DBAA5BA8EC /* PBXTargetDependency */,
+			);
+			name = "Pods-ANFScrollableNav_Example";
+			productName = "Pods-ANFScrollableNav_Example";
+			productReference = 88F43DA36D2A831E5483900384D39A1B /* Pods_ANFScrollableNav_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		255C5734FA0CA99B698797CB4DCD5ABC /* Pods-ANFScrollableNav_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA42376DC9963313EF743DA0BBCCB4D6 /* Build configuration list for PBXNativeTarget "Pods-ANFScrollableNav_Tests" */;
+			buildPhases = (
+				D793E12171CE2D006227AE488332B6BF /* Headers */,
+				7AD7AEC1C4F27418A3260933B7B41C72 /* Sources */,
+				A785C29FDF117ECDE7A3597B664BBCFE /* Frameworks */,
+				FCC98866450FC6CBD2F97FD8FC382B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D17E6CFE208928FB129AB24A55AD81 /* PBXTargetDependency */,
+			);
+			name = "Pods-ANFScrollableNav_Tests";
+			productName = "Pods-ANFScrollableNav_Tests";
+			productReference = BB45EFF80B9EB6A361D8AD1AB2E36B8B /* Pods_ANFScrollableNav_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					0C0A81396135F116DAB41F62C5267477 = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4BF11896D3CD4A458FDC0740288BC5F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C0A81396135F116DAB41F62C5267477 /* ANFScrollableNav */,
+				0E41B4F6D26F24380F855AABE3B8B8B4 /* Pods-ANFScrollableNav_Example */,
+				255C5734FA0CA99B698797CB4DCD5ABC /* Pods-ANFScrollableNav_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A049423046BFAF9FBD92DC9A02B4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB26D1155C0C77204B8F7BFF4D79F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC98866450FC6CBD2F97FD8FC382B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AD7AEC1C4F27418A3260933B7B41C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781DD373A72019856E172260B58D5EE0 /* Pods-ANFScrollableNav_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2B6052C6517D240D7ADD78F66DD12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D835758E3C1219EEC41FBDE2754940E7 /* ANFScrollableNav-dummy.m in Sources */,
+				080274AE26972621000747EF /* NavigationManager.swift in Sources */,
+				080274AD26972621000747EF /* NavViewController.swift in Sources */,
+				080274AC26972621000747EF /* NavScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D193B6CA11C100CAAE6C90C104357FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1DFFC1F81C0734E303EE56F010771A /* Pods-ANFScrollableNav_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4D17E6CFE208928FB129AB24A55AD81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ANFScrollableNav_Example";
+			target = 0E41B4F6D26F24380F855AABE3B8B8B4 /* Pods-ANFScrollableNav_Example */;
+			targetProxy = 064430E7119A26F59B748A9290121A43 /* PBXContainerItemProxy */;
+		};
+		D72BA7683D854EB9D74CD9DBAA5BA8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ANFScrollableNav;
+			target = 0C0A81396135F116DAB41F62C5267477 /* ANFScrollableNav */;
+			targetProxy = CA3A7E61354439FCAC53A1F8D91AE67C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		333170560E5DE1C814DF4641F9F7EEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA31626F54BC0384B36758A7AEE9A64C /* ANFScrollableNav.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ANFScrollableNav/ANFScrollableNav-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ANFScrollableNav/ANFScrollableNav-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ANFScrollableNav/ANFScrollableNav.modulemap";
+				PRODUCT_MODULE_NAME = ANFScrollableNav;
+				PRODUCT_NAME = ANFScrollableNav;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53FF91351A9740DE44CC1053164F62F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7AE82E4609F34D59DDBFD1136D08D34 /* ANFScrollableNav.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ANFScrollableNav/ANFScrollableNav-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ANFScrollableNav/ANFScrollableNav-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ANFScrollableNav/ANFScrollableNav.modulemap";
+				PRODUCT_MODULE_NAME = ANFScrollableNav;
+				PRODUCT_NAME = ANFScrollableNav;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		870C1AF53D6349A6EB562AF4C4051005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9921D340DAB71A0F9D9152E1C2B8E0 /* Pods-ANFScrollableNav_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ANFScrollableNav_Tests/Pods-ANFScrollableNav_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANFScrollableNav_Tests/Pods-ANFScrollableNav_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D8B816C9F62A695DD5B17EAA54632A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E70804643CFF34F6A7F79FB7D4D398 /* Pods-ANFScrollableNav_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ANFScrollableNav_Example/Pods-ANFScrollableNav_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANFScrollableNav_Example/Pods-ANFScrollableNav_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DC4C4B6868D9A05587C80FEB9F79F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B08AF2E84AD9E6C0BE7FF41B202EA80 /* Pods-ANFScrollableNav_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ANFScrollableNav_Example/Pods-ANFScrollableNav_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANFScrollableNav_Example/Pods-ANFScrollableNav_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DC1809C374882D5A12A3A073A700513D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137CE3725F55A72122703CC228DB5414 /* Pods-ANFScrollableNav_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ANFScrollableNav_Tests/Pods-ANFScrollableNav_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ANFScrollableNav_Tests/Pods-ANFScrollableNav_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396A25A0AD160ED40FDF10281147798D /* Build configuration list for PBXNativeTarget "ANFScrollableNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FF91351A9740DE44CC1053164F62F0 /* Debug */,
+				333170560E5DE1C814DF4641F9F7EEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8169147CF200938A0928BCEC4D619F48 /* Build configuration list for PBXNativeTarget "Pods-ANFScrollableNav_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8B816C9F62A695DD5B17EAA54632A2 /* Debug */,
+				8DC4C4B6868D9A05587C80FEB9F79F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA42376DC9963313EF743DA0BBCCB4D6 /* Build configuration list for PBXNativeTarget "Pods-ANFScrollableNav_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1809C374882D5A12A3A073A700513D /* Debug */,
+				870C1AF53D6349A6EB562AF4C4051005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
